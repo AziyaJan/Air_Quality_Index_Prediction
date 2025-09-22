@@ -7,7 +7,7 @@ from sklearn import metrics
 from sklearn.metrics import mean_squared_error
 
 # Load your dataset (replace with correct path)
-aqi_data = pd.read_csv("aqi_dataset.csv")
+aqi_data = pd.read_csv("C:\Users\janaz\OneDrive\Desktop\AQI Project\Delhi_AQI_Dataset.csv")
 
 # Convert Date column
 aqi_data['Date'] = pd.to_datetime(aqi_data['Date'])
